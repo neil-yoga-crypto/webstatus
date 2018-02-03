@@ -14,9 +14,9 @@ To run Webstatus, you'll need the following:
 - nmap
 
 ## Install 
-Install dependencies from requirements.txt
+Install dependencies via apt.
 ```
-sudo apt install git dnsutils nmap
+sudo apt-get install git dnsutils nmap
 git clone [this repository]
 ```
 
