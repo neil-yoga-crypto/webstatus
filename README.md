@@ -24,7 +24,7 @@ git clone [this repository]
 
 ##  Usage
 ```
-usage: webstatus.sh [domain]
+usage: ./webstatus [domain]
 ```
 
 ##  Example
