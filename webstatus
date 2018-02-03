@@ -12,7 +12,7 @@ echo "========== WHOIS expiry ============"
 timeout 4 sh scripts/whois-expiry.sh $1
 echo "========== SSL Expiry ============"
 timeout 4 sh scripts/ssl-expiry.sh $1
-echo "========== SSL expiry in days ============"
+echo "========== SSL certificate days left ============"
 timeout 4 sh scripts/ssl-expiry.sh $1 | python scripts/ssl-expiry-to-days.py
-echo "========== WHOIS expiry in days ============"
+echo "========== WHOIS days left ============"
 timeout 4 sh scripts/whois-expiry.sh redbyte.co | python scripts/whois-expiry-to-days.py

@@ -4,8 +4,8 @@
 - Easy script to retrieve status information about a domain
 - DNS records
 - Port statusses (1=open,0=filtered/closed)
-- SSL expiry date
-- Whois expiry date
+- SSL expiry information
+- Whois expiry information
 
 ## Prerequisites
 To run Webstatus, you'll need the following:
