@@ -1,4 +1,4 @@
-# Webstatus: Retrieve DNS records, active ports (22,80,443), ssl / whois expiry dates from a domain. 
+# Webstatus: Retrieve DNS records, active ports and ssl / whois expiry dates from a domain. 
 
 ## Features
 - Easy script to retrieve status information about a domain
