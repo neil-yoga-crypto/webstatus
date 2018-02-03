@@ -10,15 +10,13 @@
 ## Prerequisites
 To run Webstatus, you'll need the following:
 - git
-- dig
-- openssl
+- dnsutils
 - nmap
-- whois
 
 ## Install 
 Install dependencies from requirements.txt
 ```
-sudo apt install git dig openssl nmap whois
+sudo apt install git dnsutils nmap
 git clone [this repository]
 ```
 
