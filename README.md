@@ -18,7 +18,7 @@ To run Webstatus, you'll need the following:
 ## Install 
 Install dependencies from requirements.txt
 ```
-sudo apt install git dit openssl nmap whois
+sudo apt install git dig openssl nmap whois
 git clone [this repository]
 ```
 
