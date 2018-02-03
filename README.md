@@ -3,7 +3,7 @@
 ## Features
 - Easy script to retrieve status information about a domain
 - DNS records
-- Port statusses (1=open,0=filtered/closed)
+- Port statuses (1=open,0=filtered/closed)
 - SSL expiry information
 - Whois expiry information
 
