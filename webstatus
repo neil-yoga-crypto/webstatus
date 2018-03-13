@@ -7,9 +7,11 @@ fi
 DIR=`realpath $(dirname $0)`
 echo "========== DIG Records ============"
 timeout 4 sh $DIR/scripts/dig-records.sh $1
-echo "========== PORT SCAN (22,80,443) ============"
+echo "========== PORT SCAN ============"
 timeout 8 sh $DIR/scripts/nmap-ports.sh $1
-echo "========== WHOIS expiry ============"
+echo "========== WHOIS expiry info ============"
 timeout 4 sh $DIR/scripts/whois-expiry.sh $1
-echo "========== SSL Expiry ============"
+echo "========== SSL expiry info ============"
 timeout 4 sh $DIR/scripts/ssl-expiry.sh $1
+echo "========== SSL valid info ============"
+timeout 4 python $DIR/scripts/ssl-valid.py $1
